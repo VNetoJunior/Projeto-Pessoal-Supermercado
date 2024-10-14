@@ -23,7 +23,7 @@ switch (resposta) {
     if(caminho1 == "Sim") {
         alert("Você comprou Laranjas");
         suco = "Suco de Laranja"
-      }
+    }
     
     else if(caminho1 == "Não") {
         alert("Você comprou maça")
@@ -33,7 +33,7 @@ switch (resposta) {
     else {
         alert("Sim ou não? Burrão!")
     }
-    
+        break
     
     case "Sessão do Açucar":
         alert("Você chega na Sessão do Açucar!" );
@@ -54,14 +54,14 @@ switch (resposta) {
     else {
         alert("Sim ou não? Burrão!")
     }
-    
+        break
     }
     
     alert("Você ja comprou tudo que precisa?")
         resposta2 = prompt("Terminou?")
     
     switch(resposta2) {
-    case "Sim": 
+        case "Sim": 
         alert("Você vai pra casa");
         alert("Você fez um " + suco + " Adoçado com " + doce )
         break
@@ -108,9 +108,10 @@ switch (resposta) {
     
     else {
         alert("Sim ou não? Burrão!")
-     
-         }
-        }
-      }  
+        break
+    
+      }
     }
+  }
+}
     
